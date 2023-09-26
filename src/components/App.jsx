@@ -6,11 +6,11 @@ export const App = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        fontSize: 40,
+        fontSize: 80,
         color: '#010101'
       }}
     >
-      React homework template
+      My first task in react !!!
     </div>
   );
 };
