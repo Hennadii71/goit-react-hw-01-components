@@ -1,5 +1,6 @@
 import { getRandomHexColor } from 'holders/getRandomColor.js';
 import css from './Statistics.module.css';
+
 export const Statistics = ({ title, stats }) => {
   return (
     <section className={css.statisticsSection}>

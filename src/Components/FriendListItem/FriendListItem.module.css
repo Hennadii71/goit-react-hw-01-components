@@ -11,19 +11,19 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.green {
-  width: 15px;
-  height: 15px;
-  margin-right: 15px;
-  border-radius: 50%;
-  background-color: green;
-}
-
+.green,
 .red {
   width: 15px;
   height: 15px;
   margin-right: 15px;
   border-radius: 50%;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
   background-color: red;
 }
 
