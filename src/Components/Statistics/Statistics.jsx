@@ -1,5 +1,5 @@
-import { getRandomHexColor } from './GetRandomColor';
-import css from './Statistics.module.css'
+import { getRandomHexColor } from 'holders/getRandomColor.js';
+import css from './Statistics.module.css';
 export const Statistics = ({ title, stats }) => {
   return (
     <section className={css.statisticsSection}>
@@ -7,7 +7,11 @@ export const Statistics = ({ title, stats }) => {
 
       <ul className={css.statisticsList}>
         {stats.map(stat => (
-          <li key={stat.id} className={css.statisticsListItem} style={{ backgroundColor: getRandomHexColor() }}>
+          <li
+            key={stat.id}
+            className={css.statisticsListItem}
+            style={{ backgroundColor: getRandomHexColor() }}
+          >
             <span className={css.statisticsLabel}>{stat.label}</span>
             <span className={css.statisticsPercentage}>{stat.percentage}</span>
           </li>
