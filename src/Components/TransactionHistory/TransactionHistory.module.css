@@ -1,0 +1,22 @@
+.transTable {
+  border: 3px solid black;
+  width: 360px;
+  margin: 60px auto;
+  padding: 10px;
+  border-collapse: collapse;
+}
+
+.headTransTable {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  background-color: lightgray;
+  font-weight: bold;
+}
+
+.bodyTransTable {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  background-color: white;
+}
